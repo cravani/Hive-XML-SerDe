@@ -2,10 +2,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.ibm.spss.hive.serde2.xml</groupId>
 	<artifactId>hivexmlserde</artifactId>
-	<version>1.0.5.3</version>
+	<version>1.0.5.4</version>
 	<packaging>jar</packaging>
 	<name>hive-xml-serde</name>
-	<url>https://github.com/dvasilen/Hive-XML-SerDe</url>
+	<url>https://github.com/cravani/Hive-XML-SerDe</url>
 	<description>XML SerDe for Apache Hive</description>
 	<licenses>
 		<license>
@@ -20,12 +20,17 @@
 			<name>Dmitry Vasilenko</name>
 			<email>dvasilen@gmail.com</email>
 		</developer>
+                <developer>
+                        <id>cravani</id>
+                        <name>Chiran Ravani</name>
+                        <email>chiran54321@gmail.com</email>
+                </developer>
 	</developers>
 	<scm>
 		<!-- Replace the connection below with your project connection -->
-		<connection>scm:git:git@github.com:dvasilen/Hive-XML-SerDe.git</connection>
-		<developerConnection>scm:git:git@github.com:dvasilen/Hive-XML-SerDe.git</developerConnection>
-		<url>scm:git:git@github.com:dvasilen/Hive-XML-SerDe.git</url>
+		<connection>scm:git:git@github.com:cravani/Hive-XML-SerDe.git</connection>
+		<developerConnection>scm:git:git@github.com:cravani/Hive-XML-SerDe.git</developerConnection>
+		<url>scm:git:git@github.com:cravani/Hive-XML-SerDe.git</url>
 		<tag>HEAD</tag>
 	</scm>
     <properties>
@@ -123,24 +128,24 @@
 		<dependency>
 			<groupId>org.apache.hive</groupId>
 			<artifactId>hive-serde</artifactId>
-			<version>1.2.0</version>
+			<version>3.1.2</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.hive</groupId>
 			<artifactId>hive-exec</artifactId>
-			<version>1.2.0</version>
+			<version>3.1.2</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.hadoop</groupId>
 			<artifactId>hadoop-mapreduce-client-core</artifactId>
-			<version>2.6.0</version>
+			<version>3.1.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.hadoop</groupId>
 			<artifactId>hadoop-common</artifactId>
-			<version>2.6.0</version>
+			<version>3.1.1</version>
 		</dependency>
 		<dependency>
 			<groupId>log4j</groupId>

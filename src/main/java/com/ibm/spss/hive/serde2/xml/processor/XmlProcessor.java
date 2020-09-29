@@ -29,14 +29,12 @@ public interface XmlProcessor {
     /**
      * Initializes the processor
      * 
-     * @param xmlProcessorContext
      */
     public void initialize(XmlProcessorContext xmlProcessorContext);
 
     /**
      * Returns the mapping of the column names to the parsed objects
      * 
-     * @param text
      *            the text to parse
      * @return the mapping of the column names to the parsed objects
      */

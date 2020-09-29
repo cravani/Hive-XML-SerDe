@@ -38,7 +38,6 @@ public class NodeArray extends ArrayList<Node> implements SerDeArray {
     /**
      * Conversion constructor for the DOM NodeList
      * 
-     * @param nodeList
      */
     public NodeArray(NodeList nodeList) {
         for (int nodeIndex = 0; nodeList != null && nodeIndex < nodeList.getLength(); ++nodeIndex) {
@@ -49,7 +48,6 @@ public class NodeArray extends ArrayList<Node> implements SerDeArray {
     /**
      * Conversion constructor for the List
      * 
-     * @param nodeList
      */
     public NodeArray(List<Node> nodeList) {
         addAll(nodeList);

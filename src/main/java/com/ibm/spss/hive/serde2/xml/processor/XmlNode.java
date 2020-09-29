@@ -58,7 +58,6 @@ public class XmlNode extends DefaultHandler {
     /**
      * Conversion constructor for SAX
      * 
-     * @param inputStream
      *            the input stream
      */
     public XmlNode(InputStream inputStream) {
@@ -80,7 +79,6 @@ public class XmlNode extends DefaultHandler {
 
     /**
      * 
-     * @param value
      */
     protected void initialize(String value) {
         try {

@@ -29,7 +29,6 @@ public class XmlNodeArray extends ArrayList<XmlNode> implements SerDeArray {
     /**
      * Conversion constructor
      * 
-     * @param nodes
      */
     public XmlNodeArray(List<XmlNode> nodes) {
         addAll(nodes);
